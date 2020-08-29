@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- The identifier that must be unique within the hosting gallery -->
+        <id>mbergstrom.wpf.common</id>
+
+        <!-- The package version number that is used when resolving dependencies -->
+        <version>0.5.0</version>
+
+        <!-- Authors contain text that appears directly on the gallery -->
+        <authors>Matt Bergstrom</authors>
+
+        <!-- 
+            Owners are typically nuget.org identities that allow gallery
+            users to easily find other packages by the same owners.  
+        -->
+        <owners>mbergstrom</owners>
+
+        <!-- Project URL provides a link for the gallery -->
+        <projectUrl>https://github.com/m-bergstrom/WpfCommon</projectUrl>
+
+        <!-- License information is displayed on the gallery -->
+        <license type="expression">MIT</license>
+
+
+        <!-- The icon is used in Visual Studio's package manager UI -->
+        <iconUrl>http://github.com/contoso/UsefulStuff/nuget_icon.png</iconUrl>
+
+        <!-- 
+            If true, this value prompts the user to accept the license when
+            installing the package. 
+        -->
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+
+        <!-- Any details about this particular release -->
+        <releaseNotes>Initial release -- expect more soon!</releaseNotes>
+
+        <!-- 
+            The description can be used in package manager UI. Note that the
+            nuget.org gallery uses information you add in the portal. 
+        -->
+        <description>Useful resources for my WPF projects</description>
+
+        <!-- Copyright information -->
+        <copyright>Copyright ©2020 Matthew Bergstrom</copyright>
+
+        <!-- Tags appear in the gallery and can be used for tag searches -->
+        <tags>wpf utility</tags>
+
+        <!-- Dependencies are automatically installed when the package is installed -->
+        <dependencies>
+            <group targetFramework=".NETFramework4.6.1">
+                <dependency id="JetBrains.Annotations" version="2020.1.0" />
+            </group>
+        </dependencies>
+    </metadata>
+</package>
